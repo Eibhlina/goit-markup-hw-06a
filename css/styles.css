@@ -7,21 +7,16 @@
 }
 
 body {
-    font-family: 'Raleway','Roboto';
+    font-family: 'Raleway','Roboto', sans-serif; 
     color:#333;
     line-height: :1.6;
 
 }
 
 header {
-    color:var(--first-color-text)
     background-color: var(--color-white);
 }
 
-header:hover {
-    color: #404bbf;
-    background-color: var(--iris);
-}
 
 a {
     text-decoration:none ;
@@ -34,11 +29,6 @@ ul {
 button {
     color: var(--iris);
     background: var(--second-color-text);
-    font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-font-weight: bold;
 }
 
 
@@ -47,7 +37,8 @@ a:hover {
 }
 
 button:hover {
-    color: blue;
+    background-color: blue; 
+    
 }
 
 
@@ -69,9 +60,7 @@ color: var(--iris);
     color: #2E2F42
     font-family: Roboto;
 font-size: 20px;
-font-style: normal;
 font-weight: 500;
-font-weight: bold;
 }
 
 .page-footer {
@@ -90,7 +79,6 @@ font-weight: bold;
 .text-footer {
     font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 text-transform: none;
 color:var(--second-color-text)
@@ -99,8 +87,7 @@ color:var(--second-color-text)
 .section {
     font-family: Roboto;
 font-size: 56px;
-font-style: normal;
-font-weight: 700;
+font-weight: 500;
 color:var(--second-color-text);
 background: var(--first-color-text);
 }
