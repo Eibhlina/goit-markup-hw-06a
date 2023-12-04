@@ -1,8 +1,7 @@
 :root {
---first-color-text:#2E2F42; 
---activ-color-text:#404BBF;
---info-color-text:#434455; 
---logo-color-text:#2E2F42;
+--first-color-text-navy-blue:#2E2F42; 
+--activ-color-text-ocean:#404BBF;
+--address-color-text-slate:#434455; 
 --second-color-text:#F4F4FD;
 --color-white:white;
 --iris:#4D5AE5;
@@ -12,18 +11,23 @@
 
 body {
     font-family: 'Raleway','Roboto', sans-serif; 
-    color:#333;
+    color:#2E2F42;
     line-height: :1.6;
     background-color: var(--color-white);
 }
   
-
+.header-list {
+    color: #2E2F42
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+}
 
 .logo {
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
-    color:var(--first-color-text);
+    color:var(--first-color-text-navy-blue);
     font-weight:800;
 
 }
@@ -43,22 +47,32 @@ ul {
 
 
 .my-links .link {
-    color: var(--first-color-text);
+    color: var(--first-color-text-navy-blue);
 }
 
 
 .my-links .link:hover,
 .my-links .link:focus {
-   color: var(--iris); 
+   color: var(--activ-color-text-ocean); 
 }
+
+
+.address {
+    color: var(--address-color-text-slate);
+}
+
+.address:hover {
+    color:var(--activ-color-text-ocean);
+}
+
 
 .social-links .link:active {
   color: red;
 
 
-button {
+.button {
     color: var(--iris);
-    background: var(--second-color-text);
+    background-color: var(--iris);
 }
 
 
@@ -67,24 +81,17 @@ a:hover {
 }
 
 button:hover {
-    background-color: blue; 
-    
+    background-color:var(--activ-color-text-ocean); 
+
 }
 
-
-.header-list {
-    color: #2E2F42
-    font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-}
 
 .page-footer {
     background-color: #2E2F42; 
     text-transform: uppercase;
     font-size: 16px;
     text-decoration: none;
-    color:var(--first-color-text);
+    color:var(--first-color-text-navy-blue);
     font-weight:800;
 }
 
