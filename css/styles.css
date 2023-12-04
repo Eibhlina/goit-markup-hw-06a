@@ -5,6 +5,7 @@
 --second-color-text:#F4F4FD;
 --color-white:white;
 --iris:#4D5AE5;
+--color-button-cloud:#F4F4FD
 
 
 }
@@ -24,7 +25,10 @@ font-weight: 500;
 }
 
 .logo {
-    font-size: 16px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03;
     text-decoration: none;
     text-transform: uppercase;
     color:var(--first-color-text-navy-blue);
@@ -48,6 +52,10 @@ ul {
 
 .my-links .link {
     color: var(--first-color-text-navy-blue);
+    font-weight: 100;
+    font-style: normal;
+    text-decoration:none;
+    
 }
 
 
@@ -59,20 +67,22 @@ ul {
 
 .address {
     color: var(--address-color-text-slate);
+    text-decoration:none;
 }
+
 
 .address:hover {
     color:var(--activ-color-text-ocean);
+    text-decoration:none;
 }
 
 
-.social-links .link:active {
-  color: red;
 
-
-.button {
+button {
     color: var(--iris);
-    background-color: var(--iris);
+    background-color: var(--color-button-cloud);
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    cursor: pointer;
 }
 
 
