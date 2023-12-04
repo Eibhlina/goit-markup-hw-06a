@@ -60,6 +60,9 @@ ul {
     
 }
 
+.ul1 {
+    list-style: none;
+    }
 
 .my-links .link:hover,
 .my-links .link:focus {
