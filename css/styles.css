@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'sans-serif';
     color:#434455;
     line-height: :1.6;
     background-color: var(--color-white);
@@ -19,7 +19,7 @@ body {
   
 .header-list {
     color: #2E2F42
-    font-family: Relaway; sans-serif; 
+    font-family: 'Relaway', 'sans-serif'; 
     font-size: 20px;
     font-weight: 500;
     styl line-height: 1.2;
@@ -27,7 +27,7 @@ body {
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'sans-serif';
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03;
