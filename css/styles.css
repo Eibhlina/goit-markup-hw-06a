@@ -6,12 +6,13 @@
 --color-white:white;
 --color-iris:#4D5AE5;
 --color-button-cloud:#F4F4FD;
+--color-body:#434455
 
 }
 
 body {
-    font-family: 'Raleway','Roboto', sans-serif; 
-    color:#2E2F42;
+    font-family: 'Roboto';
+    color:#434455;
     line-height: :1.6;
     background-color: var(--color-white);
 }
