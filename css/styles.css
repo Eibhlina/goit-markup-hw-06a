@@ -43,7 +43,7 @@ color: var(--color-navy-blue);
 
 }
 
-a {
+.logo-link {
     text-decoration:none ;
 }
 
