@@ -11,26 +11,26 @@
 }
 
 body {
-    font-family: 'Roboto', 'sans-serif';
+    font-family:'Roboto', 'sans-serif';
     color:#434455;
-    line-height: :1.6;
+    line-height: 1.6;
     background-color: var(--color-white);
 }
   
 .header-list {
-    color: #2E2F42
+    color: #2E2F42;
     font-family: 'Relaway', 'sans-serif'; 
     font-size: 20px;
     font-weight: 500;
-    styl line-height: 1.2;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
 .logo {
-    font-family: 'Raleway', 'sans-serif';
+    font-family:'Raleway', 'sans-serif';
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03;
+    line-height:1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
     color:var(--color-iris);
