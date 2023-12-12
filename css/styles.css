@@ -112,10 +112,8 @@ button:hover {
 }
 
 
-.list-photo {
+.list-photo .link-decoration {
 
-}
-.link-decoration {
     text-decoration:none;
 }
 
