@@ -85,6 +85,7 @@ ul {
 
 .info {
     font-style:normal;
+    color: var(--color-slate);
 }
 
 .address:hover .info:hover {
