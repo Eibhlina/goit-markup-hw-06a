@@ -69,7 +69,7 @@ ul {
     
 }
 
-.my-links .link:hover
+.my-links .link:hover,
 .my-links .link:focus {
    color: var(--color-ocean); 
 }
@@ -87,7 +87,7 @@ ul {
     font-style:normal;
 }
 
-.address:hover {
+.address:hover .info:hover {
     color:var(--color-ocean);
     text-decoration:none;
 }
