@@ -83,6 +83,9 @@ ul {
     letter-spacing:0.02em;
 }
 
+.info {
+    font-style:normal;
+}
 
 .address:hover {
     color:var(--color-ocean);
