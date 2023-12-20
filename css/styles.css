@@ -63,7 +63,7 @@ ul {
     font-weight: 500;
     line-height:1.5;
     letter-spacing:0.02em;
-    color: var(--color-navy-blue);
+    color: var(--color-body);
     text-decoration:none;
     list-style:none;
     
@@ -128,12 +128,12 @@ background: var(--color-white);
     background-color:var(--color-ocean); 
 }
 
-button {
+/* button {
     color: var(--color-iris);
     background-color: var(--color-button-cloud);
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     cursor: pointer;
-}
+} */
 
 
 button:hover {
@@ -164,7 +164,7 @@ button:hover {
     
 }
 
-.third-section {
+.nav-third-section {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -228,19 +228,19 @@ button:hover {
 
 
 .page-footer {
-   
     background-color: #2E2F42; 
-}
-
-.hightlight link {
     font-family:"Raleway", sans-serif;
-    text-transform: uppercase;
+    font-weight:800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--color-iris);   
+}
+
+
+.hightlight link {
     text-decoration: none;
-    color:var(--color-iris);
-    font-weight:800;
 }
 
 
