@@ -140,6 +140,15 @@ button:hover {
     background-color:var(--color-ocean); 
 }
 
+.nav-second-section {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+}
+
+
 .list {
     list-style: none;
 }
