@@ -228,8 +228,12 @@ button:hover {
 
 
 .page-footer {
-    font-family: "Relaway", sans-serif;
+   
     background-color: #2E2F42; 
+}
+
+.hightlight link {
+    font-family:"Raleway", sans-serif;
     text-transform: uppercase;
     font-size: 18px;
     line-height: 1.17;
@@ -238,6 +242,7 @@ button:hover {
     color:var(--color-iris);
     font-weight:800;
 }
+
 
 .studio-hightlight {
     color:var(--color-text)
