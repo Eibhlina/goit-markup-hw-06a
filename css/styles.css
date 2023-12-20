@@ -12,13 +12,13 @@
 
 body {
     font-family:"Roboto", sans-serif;
-    color:#434455;
+    color:var(--color-body);
     line-height: 1.6;
     background-color: var(--color-white);
 }
   
 .header-list {
-    color: #2E2F42;
+    color:var(--color-body);
     font-family: "Relaway", sans-serif; 
     font-size: 20px;
     font-weight: 500;
@@ -124,7 +124,7 @@ background: var(--color-white);
     color: var(--color-white);
 }
 
-.button-first:hover {
+.button-first:hover .button-first:focus {
     background-color:var(--color-ocean); 
 }
 
@@ -140,7 +140,7 @@ button:hover {
     background-color:var(--color-ocean); 
 }
 
-.nav-second-section {
+.second-section {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
