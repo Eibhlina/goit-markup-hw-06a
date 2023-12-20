@@ -156,6 +156,11 @@ button:hover {
     color: var(--color-navy-blue);
 }
 
+.p-class {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-body);
+}
 .list {
     list-style: none;
 }
