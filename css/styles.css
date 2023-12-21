@@ -17,14 +17,6 @@ body {
     background-color: var(--color-white);
 }
   
-/* .header-list {
-    color:var(--color-slate);
-    font-family: "Relaway", sans-serif; 
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-} */
 
 .logo {
     font-family:"Raleway", sans-serif;
@@ -137,7 +129,7 @@ background: var(--color-white);
     color: var(--color-navy-blue);
 }
 
-.nav-h3 {
+.header-list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -145,7 +137,7 @@ background: var(--color-white);
     color: var(--color-navy-blue);
 }
 
-.p-class {
+.header-style {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -246,17 +238,5 @@ button:hover button:focus {
     color: var(--color-slate);
 }
 
-.header-list {
-    font-weight: 500;
-    font-size:20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-navy-blue);
-}
 
-.header-style {
-    font-size:16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
-}
+
