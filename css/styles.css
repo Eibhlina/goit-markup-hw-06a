@@ -6,25 +6,25 @@
 --color-white:white;
 --color-iris:#4D5AE5;
 --color-button-cloud:#F4F4FD;
---color-body:#434455;
 
 }
 
+
 body {
     font-family:"Roboto", sans-serif;
-    color:var(--color-body);
+    color:var(--color-slate);
     line-height: 1.6;
     background-color: var(--color-white);
 }
   
-.header-list {
-    color:var(--color-body);
+/* .header-list {
+    color:var(--color-slate);
     font-family: "Relaway", sans-serif; 
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.03em;
-}
+} */
 
 .logo {
     font-family:"Raleway", sans-serif;
@@ -63,7 +63,7 @@ ul {
     font-weight: 500;
     line-height:1.5;
     letter-spacing:0.02em;
-    color: var(--color-body);
+    color: var(--color-slate);
     text-decoration:none;
     list-style:none;
     
@@ -149,7 +149,7 @@ background: var(--color-white);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-body);
+    color: var(--color-slate);
     
 }
 
@@ -179,32 +179,6 @@ background: var(--color-white);
     background-color:var(--color-white);
 
 }
-
-
-
-.link-style {
-    font-family:"Roboto";
-    font-size:16px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--color-slate);
-}
-
-.header-list {
-   font-size:20px;
-   font-weight: 500;
-   line-height: 1.2;
-   color: var(--color-navy-blue);
-}
-
-.header-style {
-   font-family:"Roboto";
-   font-size:16px;
-   font-weight: 400;
-   line-height: 1.5;
-   color: var(--color-slate);
-}
-
 
 .page-footer {
     background-color: #2E2F42; 
@@ -249,7 +223,7 @@ button {
     cursor: pointer;
 }
 
-.button:hover .button:focus {
+button:hover button:focus {
     color:var(--color-white);
     background-color:var(--color-ocean);
 }
@@ -264,8 +238,25 @@ button {
     text-decoration:none;
 }
 
+.link-style {
+    font-family:"Roboto";
+    font-size:16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-slate);
+}
 
+.header-list {
+    font-weight: 500;
+    font-size:20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+}
 
-
-
-
+.header-style {
+    font-size:16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+}
