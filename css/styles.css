@@ -103,7 +103,7 @@ background: var(--color-white);
 }
 
 .first-section {
-    background-color:var(--color-navy-blue)
+    background-color:var(--color-navy-blue);
 }
 
 .nav-first-section {
@@ -128,17 +128,6 @@ background: var(--color-white);
     background-color:var(--color-ocean); 
 }
 
-/* button {
-    color: var(--color-iris);
-    background-color: var(--color-button-cloud);
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    cursor: pointer;
-} */
-
-
-button:hover {
-    background-color:var(--color-ocean); 
-}
 
 .second-section {
     font-weight: 500;
@@ -192,30 +181,20 @@ button:hover {
 }
 
 
-.list {
-    list-style: none;
-}
-
-
-.list-photo .link-decoration {
-
-    text-decoration:none;
-}
-
 
 .link-style {
     font-family:"Roboto";
     font-size:16px;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--color-slate)
+    color: var(--color-slate);
 }
 
 .header-list {
    font-size:20px;
    font-weight: 500;
    line-height: 1.2;
-   color: var(--color-navy-blue)
+   color: var(--color-navy-blue);
 }
 
 .header-style {
@@ -223,7 +202,7 @@ button:hover {
    font-size:16px;
    font-weight: 400;
    line-height: 1.5;
-   color: var(--color-slate)
+   color: var(--color-slate);
 }
 
 
@@ -245,7 +224,7 @@ button:hover {
 
 
 .studio-hightlight {
-    color:var(--color-text)
+    color:var(--color-text);
 }
 
 .text-footer {
@@ -255,6 +234,37 @@ font-weight: 400;
 text-transform: none;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--color-text)
+color:var(--color-text);
 }
+
+
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--color-iris);
+    background-color: var(--color-button-cloud);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:var(--color-ocean);
+}
+
+.list-main {
+    list-style: none;
+}
+
+
+.list-photo .link-decoration {
+
+    text-decoration:none;
+}
+
+
+
+
+
 
