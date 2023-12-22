@@ -71,6 +71,10 @@ ul {
   color:var(--color-navy-blue);
 }
 
+.link html{
+color:var(--color-navy-blue);
+}
+
 .address {
     color:var(--color-slate);
     text-decoration:none;
