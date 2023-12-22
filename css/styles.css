@@ -57,9 +57,8 @@ ul {
     letter-spacing:0.02em;
     text-decoration:none;
     list-style:none;
-    color:var(--color-navy-blue);
+    
 }
-
 
 
 .my-links, .link:hover,
