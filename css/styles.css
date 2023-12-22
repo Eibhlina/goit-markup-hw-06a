@@ -55,7 +55,7 @@ ul {
     font-weight: 500;
     line-height:1.5;
     letter-spacing:0.02em;
-    /* color: var(--color-slate); */
+    color: var(--color-slate);
     text-decoration:none;
     list-style:none;
     color:var(--color-navy-blue);
