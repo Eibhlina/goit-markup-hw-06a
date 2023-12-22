@@ -66,6 +66,9 @@ ul {
    color: var(--color-ocean); 
 }
 
+.header-nav{
+  color:var(--color-navy-blue);
+}
 
 .address {
     color:var(--color-slate);
@@ -116,7 +119,7 @@ background: var(--color-white);
     color: var(--color-white);
 }
 
-.button-first:hover .button-first:focus {
+.button-first:hover, .button-first:focus {
     background-color:var(--color-ocean); 
 }
 
@@ -184,8 +187,9 @@ background: var(--color-white);
 }
 
 
-.hightlight link {
+.hightlight-link {
     text-decoration: none;
+    background-color: var(--color-iris);
 }
 
 
