@@ -61,6 +61,10 @@ ul {
     
 }
 
+.first-link {
+    color:var(--color-navy-blue)
+}
+
 .my-links .link:hover,
 .my-links .link:focus {
    color: var(--color-ocean); 
