@@ -191,6 +191,7 @@ background: var(--color-white);
 .hightlight-link {
     text-decoration: none;
     background-color: var(--color-iris);
+    color:var(--color-iris);
 }
 
 
