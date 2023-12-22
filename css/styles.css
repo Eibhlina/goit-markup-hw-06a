@@ -60,6 +60,9 @@ ul {
     color:var(--color-navy-blue);
 }
 
+.html {
+    color:var(--color-slate);
+}
 
 .my-links, .link:hover,
 .my-links, .link:focus {
@@ -69,8 +72,6 @@ ul {
 .header-nav{
   color:var(--color-navy-blue);
 }
-
-
 
 .address {
     color:var(--color-slate);
@@ -91,9 +92,7 @@ ul {
 }
 
 
-.html {
-    color:var(--color-slate);
-}
+
 
 .section {
 font-family:"Roboto";
