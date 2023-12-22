@@ -60,14 +60,17 @@ ul {
     color:var(--color-navy-blue);
 }
 
-.html {
-    color:var(--color-slate);
-}
+
 
 .my-links, .link:hover,
 .my-links, .link:focus {
    color: var(--color-ocean); 
 }
+
+.html {
+    color:var(--color-slate);
+}
+
 
 .header-nav{
   color:var(--color-navy-blue);
