@@ -70,6 +70,9 @@ ul {
   color:var(--color-navy-blue);
 }
 
+.html {
+    color:var(--color-slate);
+}
 
 .address {
     color:var(--color-slate);
