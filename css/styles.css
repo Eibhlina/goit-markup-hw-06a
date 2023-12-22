@@ -48,7 +48,20 @@ ul {
     list-style: none;
     }
 
-.my-links .link {
+.my-links  {
+    font-family:"Roboto";
+    font-size: 16px;
+    font-style:normal;
+    font-weight: 500;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    text-decoration:none;
+    list-style:none;
+    color:var(--color-navy-blue);
+}
+
+
+.link {
     font-family:"Roboto";
     font-size: 16px;
     font-style:normal;
@@ -58,7 +71,7 @@ ul {
     color: var(--color-slate);
     text-decoration:none;
     list-style:none;
-    color:var(--color-navy-blue);
+    
 }
 
 
