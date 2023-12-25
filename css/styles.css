@@ -120,6 +120,7 @@ background: var(--color-white);
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-white);
+    cursor: pointer;
 }
 
 .button-first:hover, .button-first:focus {
