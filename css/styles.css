@@ -40,19 +40,16 @@ a{
 }
 
 
-a:hover {
-    text-decoration:underline;
-} 
 
 ul {
     list-style: none;
     }
 
 .my-links  .link {
-    font-family:"Roboto";
+    font-family:"Roboto", sans-serif;
     font-size: 16px;
     font-style:normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height:1.5;
     letter-spacing:0.02em;
     text-decoration:none;
@@ -64,6 +61,7 @@ ul {
 .my-links, .link:hover,
 .my-links, .link:focus {
    color: var(--color-ocean); 
+   text-decoration:none;
 }
 
 .html {
@@ -95,7 +93,7 @@ ul {
 
 
 .section {
-font-family:"Roboto";
+font-family:"Roboto", sans-serif;
 font-size: 56px;
 font-weight: 500;
 color:var(--color-text);
@@ -138,7 +136,7 @@ background: var(--color-white);
 }
 
 .header-list {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -193,8 +191,7 @@ background: var(--color-white);
 
 
 .hightlight-link {
-    text-decoration: none;
-    background-color: var(--color-iris);
+    text-decoration:none;
     color:var(--color-iris);
 }
 
@@ -204,7 +201,7 @@ background: var(--color-white);
 }
 
 .text-footer {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 400;
 text-transform: none;
@@ -214,7 +211,7 @@ color:var(--color-text);
 }
 
 
-button {
+.button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -225,7 +222,7 @@ button {
     cursor: pointer;
 }
 
-button:hover, button:focus {
+.button:hover, .button:focus {
     color:var(--color-white);
     background-color:var(--color-ocean);
 }
@@ -241,7 +238,7 @@ button:hover, button:focus {
 }
 
 .link-style {
-    font-family:"Roboto";
+    font-family:"Roboto", sans-serif;
     font-size:16px;
     font-weight: 400;
     line-height: 1.5;
