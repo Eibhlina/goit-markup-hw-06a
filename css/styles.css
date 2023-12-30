@@ -260,7 +260,8 @@ background: var(--color-white);
 
 
 .information-employee {
-    padding: 32px 0px, 
+    padding: 32px 0px; 
+    
 }
 
 
@@ -319,18 +320,38 @@ color:var(--color-text);
     color:var(--color-iris);
     background-color: var(--color-button-cloud);
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
 }
 
 .button:hover, .button:focus {
     color:var(--color-white);
     background-color:var(--color-ocean);
+    border: 1px solid transparent;
 }
+
+
+.main-section {
+    padding-top: 96px; 
+padding-bottom: 120px; 
+}
+
+
+.main-class {
+    display: flex; 
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 
 .list-main {
     list-style: none;
     display: flex;
    flex-wrap: wrap;
    gap: 10px;
+   column-gap: 24px; 
+   row-gap: 48px; 
 }
 
 
