@@ -156,9 +156,11 @@ background: var(--color-white);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
+    padding: 120px 0;
 }
 
-.nav-second-section-hidden {
+.nav-second-section 
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -169,7 +171,19 @@ background: var(--color-white);
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+  }
+
+
+  .list-second-section {
+  display: flex;
+  gap: 24px;
+  }
+
+
+.li-second {
+    width: calc((100% - 72px) / 4);
 }
+
 
 .header-list {
     font-weight: 500;
@@ -177,6 +191,7 @@ background: var(--color-white);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
+    margin-bottom: 8px;
 }
 
 .header-style {
