@@ -337,7 +337,7 @@ padding-bottom: 120px;
 }
 
 
-.main-class {
+.list {
     display: flex; 
     justify-content: center;
     gap: 24px;
@@ -348,10 +348,10 @@ padding-bottom: 120px;
 .list-main {
     list-style: none;
     display: flex;
-   flex-wrap: wrap;
-   gap: 10px;
-   column-gap: 24px; 
-   row-gap: 48px; 
+    flex-wrap: wrap;
+    gap: 10px;
+    column-gap: 24px; 
+    row-gap: 48px; 
 }
 
 
