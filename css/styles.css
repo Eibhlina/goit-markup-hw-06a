@@ -50,7 +50,7 @@ body {
     text-transform: uppercase;
     color:var(--color-iris);
     font-weight:800;
-    /* margin-right: 76px; */
+    margin-right: 76px;
 }
 
 .hightlight {
