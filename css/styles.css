@@ -323,6 +323,7 @@ color:var(--color-text);
 .nav-main-class {
     display: flex; 
     align-items: center;
+    gap: 40px; 
 }
 
 
