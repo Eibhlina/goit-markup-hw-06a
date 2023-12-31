@@ -29,23 +29,15 @@ body {
 
 .header-class {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
-    gap: 40px;
 }
 
 .header-nav{
     color:var(--color-navy-blue);
     align-items: center;
     display: flex;
-    gap: 40px;
   }
 
 
-/* .nav {
-    
-    align-items: center;
-    
-} */
 
 .logo {
     font-family:"Raleway", sans-serif;
@@ -57,6 +49,7 @@ body {
     color:var(--color-iris);
     font-weight:800;
     margin-right: 76px;
+    gap: 40px;
 }
 
 .hightlight {
