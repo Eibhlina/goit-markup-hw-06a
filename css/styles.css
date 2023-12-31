@@ -35,11 +35,12 @@ body {
 .header-nav{
     color:var(--color-navy-blue);
     align-items: center;
+    display: flex;
   }
 
 
 /* .nav {
-    display: flex;
+    
     align-items: center;
     
 } */
