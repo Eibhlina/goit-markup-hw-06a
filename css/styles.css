@@ -31,12 +31,15 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header-container {
+    display: flex;
+}
+
 .header-nav{
     color:var(--color-navy-blue);
     align-items: center;
     display: flex;
   }
-
 
 
 .logo {
@@ -49,7 +52,6 @@ body {
     color:var(--color-iris);
     font-weight:800;
     margin-right: 76px;
-    gap: 40px;
 }
 
 .hightlight {
@@ -60,7 +62,6 @@ color: var(--color-navy-blue);
 a{
     text-decoration:none;
 }
-
 
 
 ul {
@@ -91,6 +92,10 @@ ul {
     color:var(--color-navy-blue);
 }
 
+.info {
+    font-style:normal;
+    gap: 40px;
+}
 
 .address {
     color:var(--color-slate);
@@ -100,10 +105,6 @@ ul {
     letter-spacing:0.02em;
 }
 
-.info {
-    font-style:normal;
-    gap: 40px;
-}
 
 .address:hover .info:hover {
     color:var(--color-ocean);
