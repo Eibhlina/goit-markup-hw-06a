@@ -311,6 +311,12 @@ color:var(--color-text);
 }
 
 
+/* Portfolio */
+
+
+.header-portfolio {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 
 .main-section {
