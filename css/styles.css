@@ -34,16 +34,15 @@ body {
 
 .header-nav{
     color:var(--color-navy-blue);
-    display: flex; 
     align-items: center;
   }
 
 
-.nav {
+/* .nav {
     display: flex;
     align-items: center;
     
-}
+} */
 
 .logo {
     font-family:"Raleway", sans-serif;
