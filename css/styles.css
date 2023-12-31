@@ -103,12 +103,11 @@ ul {
     font-style:normal;
     line-height:1.5;
     letter-spacing:0.02em;
-    gap: 40px;
 }
 
 .info {
     font-style:normal;
-
+    gap: 40px;
 }
 
 .address:hover .info:hover {
