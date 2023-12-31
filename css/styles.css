@@ -26,21 +26,22 @@ body {
     background-color: var(--color-white);
 }
   
+
+.header-class {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-nav{
     color:var(--color-navy-blue);
     display: flex; 
     align-items: center;
-    gap: 40px; 
   }
-
-
-
 
 
 .nav {
     display: flex;
     align-items: center;
-    gap: 40px; 
+    
 }
 
 .logo {
@@ -80,7 +81,7 @@ ul {
     text-decoration:none;
     list-style:none;
     padding: 24px 0;
-    
+    gap: 40px;
 }
 
 
@@ -93,8 +94,6 @@ ul {
 .html {
     color:var(--color-navy-blue);
 }
-
-
 
 
 .address {
@@ -324,14 +323,6 @@ color:var(--color-text);
 
 
 /* Portfolio */
-
-
-.header-class {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-
-
 
 .main-section {
     padding-top: 96px; 
