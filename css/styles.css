@@ -72,6 +72,8 @@ ul {
     letter-spacing:0.02em;
     text-decoration:none;
     list-style:none;
+    gap: 40px; 
+    padding: 24px 0;
     
 }
 
@@ -314,11 +316,11 @@ color:var(--color-text);
 /* Portfolio */
 
 
-.header-portfolio {
+.header-class {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.nav-portfolio {
+.nav-main-class {
     display: flex; 
     align-items: center;
 }
