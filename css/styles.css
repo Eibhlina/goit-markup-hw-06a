@@ -29,6 +29,7 @@ body {
 
 .header-class {
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 
 .header-nav{
