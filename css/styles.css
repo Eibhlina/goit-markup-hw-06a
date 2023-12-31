@@ -90,6 +90,9 @@ ul {
 
 .header-nav{
   color:var(--color-navy-blue);
+  display: flex; 
+  align-items: center;
+  gap: 40px; 
 }
 
 .address {
@@ -320,11 +323,7 @@ color:var(--color-text);
     border-bottom: 1px solid #e7e9fc;
 }
 
-.nav-main-class {
-    display: flex; 
-    align-items: center;
-    gap: 40px; 
-}
+
 
 
 .main-section {
