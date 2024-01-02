@@ -32,7 +32,9 @@ body {
     display: flex;
 }
 
-
+.header-div {
+    display: flex;
+}
 
 .header-nav{
     color:var(--color-navy-blue);
