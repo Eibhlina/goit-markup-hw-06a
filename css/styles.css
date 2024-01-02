@@ -69,25 +69,6 @@ ul {
     list-style: none;
     }
 
-.my-links  .link {
-    font-family:"Roboto", sans-serif;
-    font-size: 16px;
-    font-style:normal;
-    font-weight: 500;
-    line-height:1.5;
-    letter-spacing:0.02em;
-    text-decoration:none;
-    list-style:none;
-    padding: 24px 0;
-    gap: 40px;
-}
-
-
-.my-links, .link:hover,
-.my-links, .link:focus {
-   color: var(--color-ocean); 
-   text-decoration:none;
-}
 
 .html {
     color:var(--color-navy-blue);
@@ -356,6 +337,29 @@ color:var(--color-text);
 }
 
 
+.my-links  .link {
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+    font-style:normal;
+    font-weight: 500;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    text-decoration:none;
+    list-style:none;
+    padding: 24px 0;
+    gap: 40px;
+}
+
+
+.my-links, .link:hover,
+.my-links, .link:focus {
+   color: var(--color-ocean); 
+   text-decoration:none;
+}
+
+.information {
+    gap: 40px;
+}
 
 .list-main {
     list-style: none;
