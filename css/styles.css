@@ -355,6 +355,7 @@ color:var(--color-text);
 .my-links, .link:focus {
    color: var(--color-ocean); 
    text-decoration:none;
+   gap: 40px;
 }
 
 .information {
@@ -372,7 +373,6 @@ color:var(--color-text);
 
 
 .list-photo .link-decoration {
-
     text-decoration:none;
     flex-basis: calc((100% - 20px) / 3);
 }
