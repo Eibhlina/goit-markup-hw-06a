@@ -188,6 +188,7 @@ background: var(--color-white);
     margin-bottom: 8px;
 }
 
+
 .header-style {
     font-size: 16px;
     line-height: 1.5;
@@ -260,11 +261,6 @@ background: var(--color-white);
 }
 
 
-.header-list {
-    text-align: center; 
-    margin-bottom: 8px;
-}
-
 
 
 .page-footer {
@@ -317,7 +313,6 @@ max-width: 300px;
     display: flex; 
     justify-content: center;
     gap: 24px;
-    margin-bottom: 72px;
 }
 
 
