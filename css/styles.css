@@ -316,6 +316,9 @@ max-width: 300px;
     gap: 24px;
 }
 
+.buttons-list {
+    margin-bottom: 72px;
+}
 
 .button {
     font-family: "Roboto", sans-serif;
