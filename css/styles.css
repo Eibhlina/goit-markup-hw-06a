@@ -266,6 +266,18 @@ background: var(--color-white);
     gap: 24px; 
 }
 
+.li-fourth {
+    background-color:var(--color-white);
+    width: calc((100% - 72px) / 4); 
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.information-employee {
+    padding: 32px 0px; 
+    text-align: center;
+}
+
 
 .social-media {
     display: flex; 
@@ -289,15 +301,6 @@ background: var(--color-white);
 
 .li-social-media:hover, .li-social-media:focus {
     background-color: var(--color-ocean);
-}
-
-
-
-.li-fourth {
-    background-color:var(--color-white);
-    width: calc((100% - 72px) / 4); 
-    border-radius: 0px 0px 4px 4px;
-
 }
 
 
@@ -328,14 +331,6 @@ background: var(--color-white);
     border-radius: 0px 0px 4px 4px;
 
 }
-
-
-
-.information-employee {
-    padding: 32px 0px; 
-    text-align: center;
-}
-
 
 
 
