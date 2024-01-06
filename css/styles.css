@@ -248,7 +248,7 @@ background: var(--color-white);
 .fourth-section {
     background-color:var(--color-button-cloud);
     padding: 120px 0;
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   
 }
 
 .nav-fourth-section {
@@ -264,6 +264,7 @@ background: var(--color-white);
 .list-fourth-section {
     display: flex; 
     gap: 24px; 
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .li-fourth {
