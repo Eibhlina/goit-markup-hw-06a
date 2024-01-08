@@ -420,6 +420,12 @@ margin-bottom: 16px;
     background-color: #31d0aa;
 }
 
+.icon-image {
+    fill: var(--color-button-cloud);
+}
+
+
+
 /* Portfolio */
 
 .main-section {
