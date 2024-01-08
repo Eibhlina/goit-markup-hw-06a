@@ -353,6 +353,11 @@ background: var(--color-white);
 
 }
 
+
+.icon-customers {
+    fill: currentColor;
+}
+
 .page-footer {
     background-color: #2E2F42; 
     font-family:"Raleway", sans-serif;
@@ -437,7 +442,9 @@ margin-bottom: 16px;
     background-color: #31d0aa;
 }
 
-
+.icon-image {
+    fill: #f4f4fd; 
+}
 
 /* Portfolio */
 
