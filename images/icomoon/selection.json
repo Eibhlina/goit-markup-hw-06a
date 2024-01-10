@@ -41,13 +41,13 @@
         }
       ],
       "properties": {
-        "order": 33,
+        "order": 34,
         "id": 13,
-        "name": "antenna-1",
+        "name": "antenna",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 0
     },
     {
@@ -280,13 +280,13 @@
         }
       ],
       "properties": {
-        "order": 20,
+        "order": 35,
         "id": 12,
-        "name": "astronaut-1",
+        "name": "astronaut",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 1
     },
     {
@@ -349,13 +349,13 @@
         }
       ],
       "properties": {
-        "order": 21,
+        "order": 36,
         "id": 11,
-        "name": "clock-1",
+        "name": "clock",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 2
     },
     {
@@ -428,13 +428,13 @@
         }
       ],
       "properties": {
-        "order": 22,
+        "order": 37,
         "id": 10,
-        "name": "diagram-1",
+        "name": "diagram",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 3
     },
     {
@@ -467,13 +467,13 @@
         }
       ],
       "properties": {
-        "order": 23,
+        "order": 38,
         "id": 9,
         "name": "facebook",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 4
     },
     {
@@ -526,13 +526,13 @@
         }
       ],
       "properties": {
-        "order": 24,
+        "order": 39,
         "id": 8,
         "name": "instagram",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 5
     },
     {
@@ -585,13 +585,13 @@
         }
       ],
       "properties": {
-        "order": 25,
+        "order": 40,
         "id": 7,
         "name": "linkedin",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 6
     },
     {
@@ -805,13 +805,13 @@
         }
       ],
       "properties": {
-        "order": 26,
+        "order": 41,
         "id": 6,
-        "name": "Logo-1",
+        "name": "Logo2",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 7
     },
     {
@@ -965,13 +965,13 @@
         }
       ],
       "properties": {
-        "order": 27,
+        "order": 42,
         "id": 5,
-        "name": "Logo-2",
+        "name": "Logo3",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 8
     },
     {
@@ -1035,13 +1035,13 @@
         }
       ],
       "properties": {
-        "order": 28,
+        "order": 43,
         "id": 4,
-        "name": "Logo-3",
+        "name": "Logo4",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 9
     },
     {
@@ -1165,13 +1165,13 @@
         }
       ],
       "properties": {
-        "order": 29,
+        "order": 44,
         "id": 3,
-        "name": "Logo-4",
+        "name": "Logo5",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 10
     },
     {
@@ -1375,13 +1375,13 @@
         }
       ],
       "properties": {
-        "order": 30,
+        "order": 45,
         "id": 2,
-        "name": "Logo-5",
+        "name": "Logo6",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 11
     },
     {
@@ -1415,13 +1415,13 @@
         }
       ],
       "properties": {
-        "order": 31,
+        "order": 46,
         "id": 1,
-        "name": "Logo",
+        "name": "Logo1",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 12
     },
     {
@@ -1454,13 +1454,13 @@
         }
       ],
       "properties": {
-        "order": 32,
+        "order": 47,
         "id": 0,
         "name": "twitter",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 3,
+      "setId": 4,
       "iconIdx": 13
     }
   ],
