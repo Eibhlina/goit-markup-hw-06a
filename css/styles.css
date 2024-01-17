@@ -75,6 +75,35 @@ ul {
     }
 
 
+
+    .my-links  .link {
+        display: inline-block;
+        font-family:"Roboto", sans-serif;
+        font-size: 16px;
+        font-style:normal;
+        font-weight: 500;
+        line-height:1.5;
+        letter-spacing:0.02em;
+        text-decoration:none;
+        list-style:none;
+        padding: 24px 0;
+        gap: 40px;
+        position: relative;
+    
+    }
+    
+    
+    .my-links, .link:hover,
+    .my-links, .link:focus {
+       color: var(--color-ocean); 
+       text-decoration:none;
+       gap: 40px;
+    }
+    
+    .information {
+        gap: 40px;
+    }
+
 .html {
     color:var(--color-ocean); 
 }
@@ -528,33 +557,7 @@ margin-bottom: 16px;
 }
 
 
-.my-links  .link {
-    display: inline-block;
-    font-family:"Roboto", sans-serif;
-    font-size: 16px;
-    font-style:normal;
-    font-weight: 500;
-    line-height:1.5;
-    letter-spacing:0.02em;
-    text-decoration:none;
-    list-style:none;
-    padding: 24px 0;
-    gap: 40px;
-    position: relative;
 
-}
-
-
-.my-links, .link:hover,
-.my-links, .link:focus {
-   color: var(--color-ocean); 
-   text-decoration:none;
-   gap: 40px;
-}
-
-.information {
-    gap: 40px;
-}
 
 .list-main {
     list-style: none;
