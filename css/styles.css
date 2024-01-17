@@ -157,11 +157,8 @@ background: var(--color-white);
     margin: auto;
 
 
-
-    transition-property: background-color, transform;
-    transition-duration: 250ms;
+    transition-property: background-color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
 }
 
 .button-first:hover, .button-first:focus {
