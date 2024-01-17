@@ -79,6 +79,21 @@ ul {
     color:var(--color-ocean); 
 }
 
+.link-active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color:var(--color-ocean);
+    border-radius: 2px;
+     width:100%;
+
+    transition-property: color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
 
 
 .info {
@@ -95,20 +110,14 @@ ul {
     gap: 40px;
 }
 
-.address::after {
-    transition-property: color, transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
-}
+
     
 
 
-
-/* .address:hover .info:hover {
+.address:hover .info:hover {
     color:var(--color-ocean);
     text-decoration:none;
-} */
+}
 
 
 .section {
@@ -363,8 +372,7 @@ background: var(--color-white);
     fill: currentColor;
 
 
-
-    transition-property: border-color, transform;
+    transition-property: border-color, color, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
@@ -459,9 +467,6 @@ margin-bottom: 16px;
     display: flex; 
     align-items: center; 
     justify-content: center; 
-
-
-
     transition-property: background-color, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -540,27 +545,12 @@ margin-bottom: 16px;
 }
 
 
-.my-links::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color:var(--color-ocean);
-    border-radius: 2px;
-
-    transition-property: color, transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
-}
-
-/* .my-links, .link:hover,
+.my-links, .link:hover,
 .my-links, .link:focus {
    color: var(--color-ocean); 
    text-decoration:none;
    gap: 40px;
-} */
+}
 
 .information {
     gap: 40px;
