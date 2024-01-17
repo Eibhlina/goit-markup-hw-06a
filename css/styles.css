@@ -57,7 +57,7 @@ body {
     color:var(--color-iris);
     font-weight:800;
     margin-right: 76px;
-    position: relative;
+    
 }
 
 .hightlight {
@@ -76,7 +76,23 @@ ul {
 
 
 .html {
-    color:var(--color-navy-blue);
+    color:var(--color-ocean);
+    position: relative;
+}
+
+.html ::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color:var(--color-ocean);
+    border-radius: 2px;
+
+    transition-property: color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 
 .info {
@@ -94,7 +110,7 @@ ul {
 
 
 
-    transition-property: background-color, transform;
+    transition-property: color, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
@@ -606,7 +622,7 @@ margin-bottom: 16px;
 
 
 .stylish-and-user::after {
-    content:"";
+    content: '';
     position: absolute;
     background-color: var(--color-iris);
    transition: transform 2s easy-in-out;
