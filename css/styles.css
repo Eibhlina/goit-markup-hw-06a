@@ -682,10 +682,15 @@ ul {
    
 }
 
-.open-btn, .close-btn :hover, 
-.open-btn, .close-btn :focus {
-    background-color: #404bbf;
-    border: none;
+/* .open-btn, .close-btn :hover, 
+.open-btn, .close-btn :focus { */
+
+    .modal :hover,
+    .modal :focus {
+        background-color: var(--color-ocean);
+        border: none; 
+    }
+   
 
 }
 
