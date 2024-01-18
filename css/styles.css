@@ -192,8 +192,7 @@ background: var(--color-white);
     height: 56px;
     margin: auto;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .button-first:hover, .button-first:focus {
@@ -561,7 +560,7 @@ margin-bottom: 16px;
     display: block; 
 
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition z wartościami color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -656,7 +655,7 @@ ul {
     background-color: rgba(46, 47, 66, 0.4);
 
 
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 
@@ -672,8 +671,8 @@ ul {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 
@@ -692,17 +691,30 @@ ul {
     align-items: center;
     justify-content: center; 
     padding: 0;
-
-    transition-property: background-color, border, transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+   
 }
+
+.open-btn, .close-btn :hover, 
+.open-btn, .close-btn :focus {
+    background-color: var(--color-ocean);
+
+}
+
 
 .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    visibility: hidden;
+    
+}
 
+.button-modal {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+
+.button-modal :hover,
+.button-modal :focus {
+    fill: var(--color-white);
 }
