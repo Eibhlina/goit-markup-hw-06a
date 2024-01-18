@@ -685,14 +685,11 @@ ul {
 /* .open-btn, .close-btn :hover, 
 .open-btn, .close-btn :focus { */
 
-    .modal :hover,
-    .modal :focus {
+    .close-btn :hover,
+    .close-btn :focus {
         background-color: var(--color-ocean);
         border: none; 
     }
-   
-
-}
 
 
 .is-hidden {
