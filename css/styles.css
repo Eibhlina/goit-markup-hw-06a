@@ -590,19 +590,6 @@ margin-bottom: 16px;
 }
 
 
-/* .stylish-and-user::after {
-    content: '';
-    position: absolute;
-    background-color: var(--color-iris);
-    transition: transform 2s easy-in-out;
-    opacity: 50%;
-}
-
-
-.stylish-and-user :hover::after {
-    transform:translateY(-100%);
-} */
-
 
 .application {
     padding: 32px 16px;
@@ -677,7 +664,7 @@ ul {
 
 
 
-.open-btn .close-btn {
+.open-btn, .close-btn {
     position:absolute;
     top: 24px;
     right: 24px;
