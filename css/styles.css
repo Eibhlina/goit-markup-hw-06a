@@ -88,15 +88,19 @@ ul {
         list-style:none;
         padding: 24px 0;
         gap: 40px;
-        
+
+        transition-property: color, transform;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-delay: 0;
     }
     
     
     .my-links, .link:hover,
     .my-links, .link:focus {
        color: var(--color-ocean); 
-       text-decoration:none;
-       gap: 40px;
+       /* text-decoration:none;
+       gap: 40px; */
     }
     
     .information {
@@ -119,10 +123,6 @@ ul {
     border-radius: 2px;
      width:100%;
 
-    transition-property: color, transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
 }
 
 
