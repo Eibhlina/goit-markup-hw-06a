@@ -681,12 +681,8 @@ ul {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
    
 }
-
-/* .open-btn, .close-btn :hover, 
-.open-btn, .close-btn :focus { */
-
-    .close-btn :hover,
-    .close-btn :focus {
+    .modal :hover,
+    .modal :focus {
         background-color: var(--color-ocean);
         border: none; 
     }
