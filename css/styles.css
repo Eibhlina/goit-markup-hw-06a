@@ -651,6 +651,11 @@ ul {
 }
 
 
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
 
 .modal {
     position: absolute;
@@ -665,7 +670,6 @@ ul {
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
 
 
 .open-btn, .close-btn {
@@ -685,22 +689,17 @@ ul {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
    
 }
-    .close-button:hover,
-    .close-button:focus {
+    .close-btn:hover,
+    .close-btn:focus {
         background-color: var(--color-ocean);
         border: none; 
-        fill: #ffffff;
+       
     }
 
 
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-
 .button-modal {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+     fill: #ffffff;
 }
 
 
