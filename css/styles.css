@@ -689,7 +689,7 @@ ul {
     .close-btn :focus {
         background-color: var(--color-ocean);
         border: none; 
-        fill: var(--color-white);
+        fill: #ffffff;
     }
 
 
