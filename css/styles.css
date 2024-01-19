@@ -702,7 +702,7 @@ ul {
 }
 
 
-.button-modal :hover,
-.button-modal :focus {
+.is-hidden :hover,
+.is-hidden :focus {
     fill: #ffffff;
 }
