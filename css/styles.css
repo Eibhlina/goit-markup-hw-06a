@@ -88,6 +88,7 @@ ul {
         list-style:none;
         padding: 24px 0;
         gap: 40px;
+        
 
     }
     
@@ -106,6 +107,8 @@ ul {
 .html {
     color:var(--color-ocean); 
     position: relative;
+    padding: 24px 0;
+    display: inline-block;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -119,7 +122,7 @@ ul {
     background-color:var(--color-ocean);
     border-radius: 2px;
      width:100%;
-
+    
 }
 
 
@@ -555,14 +558,15 @@ margin-bottom: 16px;
     flex-basis: calc((100% - 20px) / 3);
     display: block; 
 
-    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.link-decoration:hover, .link-decoration:focus {
-    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
-    transform: translateY(0%);
-}
+
+.link-decoration:hover .stylish-and-user,  
+.link-decoration:focus .stylish-and-user { 
+    transform: translateY(0%); 
+} 
 
 
 .foto {
@@ -681,10 +685,11 @@ ul {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
    
 }
-    .open-btn :hover,
+    .close-btn :hover,
     .close-btn :focus {
         background-color: var(--color-ocean);
         border: none; 
+        fill:
     }
 
 
