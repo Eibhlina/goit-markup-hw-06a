@@ -552,9 +552,9 @@ margin-bottom: 16px;
     row-gap: 48px; 
 }
 
-/* .list-photo */
 
- .link-decoration {
+
+ .list-photo .link-decoration {
     text-decoration:none;
     flex-basis: calc((100% - 20px) / 3);
     display: block; 
