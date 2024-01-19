@@ -689,7 +689,7 @@ ul {
     .close-btn :focus {
         background-color: var(--color-ocean);
         border: none; 
-        fill:
+        fill: var(--color-white);
     }
 
 
@@ -705,7 +705,3 @@ ul {
 }
 
 
-.button-modal :hover,
-.button-modal :focus {
-    fill: var(--color-white);
-}
