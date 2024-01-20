@@ -694,7 +694,7 @@ ul {
     .close-btn:focus {
         background-color: var(--color-ocean);
         border: none; 
-       
+        fill:#ffffff;
     } 
 
 .button-modal {
