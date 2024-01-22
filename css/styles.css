@@ -706,20 +706,26 @@ ul {
 }
 
 
-    /* .close-btn:hover,
+    .close-btn:hover,
     .close-btn:focus {
         background-color: var(--color-ocean);
         border: none; 
         fill:#ffffff;
         
-    }  */
+    } 
 
 .close-btn:hover svg {
     fill:#ffffff;
 
 } 
 
-.button-modal:focus {
+.close-btn:focus svg {
+    fill:#ffffff;
+
+}
+
+
+/* .button-modal:focus {
     fill: #ffffff;
-} 
+}  */
 
