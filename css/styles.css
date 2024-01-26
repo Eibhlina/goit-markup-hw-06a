@@ -646,6 +646,40 @@ ul {
 }
 
 
+.email {
+    color: var(--WHITE);
+
+}
+
+.button-submit {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    background: var(--IRIS, #4D5AE5);
+    color: var(--WHITE);
+    
+
+}
+
+.button-send {
+    padding: 10px;
+    background-color: var(--WHITE);
+    color: var(--WHITE);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -729,3 +763,21 @@ ul {
     fill: #ffffff;
 } 
 
+
+.input-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-modal {
+    padding: 4px;
+    font-family: "Roboto", sans-serif;
+}

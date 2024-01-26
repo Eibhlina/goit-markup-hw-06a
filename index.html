@@ -468,10 +468,29 @@ Web<span class="studio-hightlight">Studio</span>
 </ul>
 </div>
 
+<form>
+    <div class="submit">
+    <p class="text-social-media">Subscrible</p>  
+    
+    <input class="email" type="email" placeholder="E-mail" required>
+    <button type="button-submit">Subscribe
+    <svg class="button-send" width="24" height="24">
+        <use href="./images/icons.svg#icon-send">
+        </use></svg></button>
+    </div>    
+</form>
+
+
 </div>
 </footer>
 
-<div class="backdrop is-hidden" data-modal>
+
+
+
+
+
+
+<div class="backdrop" data-modal>
 
     <div class="modal">
         <button class="close-btn" type="button" data-modal-close>
@@ -479,9 +498,58 @@ Web<span class="studio-hightlight">Studio</span>
             <use href="./images/modal.svg#icon-close">
             </use></svg>
         </button>
+    
 
+       <form>
+
+        <div class="input-container">
+            <label for="name">Name</label>
+            <input class="input" type="text" id="name" required/>
+            <svg class="icon-modal" width="5px">
+                <use href="./images/icons.svg#icon-person">
+                </use></svg>
+        </div>
+
+
+         <div class="input-container">
+            <label for="phone">Phone</label>
+            <input class="input" type="tel" id="phone" required/>
+            <svg class="icon-modal" width="5px">
+            <use href="./images/icons.svg#icon-phone">
+            </use></svg>
+        </div>
+
+
+
+
+        <div class="input-container">
+            <label for="email">Email</label>
+            <svg class="icon-modal" width="5px">
+                <use href="./images/icons.svg#icon-email">
+                </use></svg>
+                <input class="input" type="email" id="email" required/>
+        </div>
+
+            
         
+        <div class="input-container">
+           <label for="comment">Comment</label> 
+                <textarea id="comment" name="comment" placeholder="Text input" rows="4"></textarea>
+        </div>
+
+
+        <div class="input-container">
+                <input type="checkbox" required id="term-condition"/>
+                <label for="term-condition">I accept the terms and conditions of the Privacy Policy</label>
+        </div>
+
+        <button type="submit">Send</button>
+
+        </form>   
+
+
     </div>
+
 </div>
 
 <script src="./js/modal.js"></script>
